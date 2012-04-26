@@ -1,0 +1,43 @@
+/* Eric Meyer’s “Reset CSS” 2.0 */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Book styles */
+html {
+  background: url(images/patterns.png) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000;
+}
+
+div#logo { position: fixed; right: 20px; top: 90px; }
+
+#title {
+  margin: 20px 0 0 20px;
+  letter-spacing: 3px;
+  line-height: 20px;
+}
+#menu {
+  margin: 20px 0 0 20px;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+#menu span { padding: 0 24px 20px 0; }
+#menu a { color: #000000; text-decoration: none; }
+#menu a:hover, #menu a:active, #menu a.current { text-shadow: 1px 1px 1px #444444; }
+
+.content { width: 550px; margin: 20px 0 0 20px; padding: 20px; }
+.content p { line-height: 1.2em; margin: 10px 0; }
+.content p.content-title { text-decoration: underline; }
+
+.green-back { background-color:rgba(0,153,0,0.65); }
+.red-back { background-color:rgba(255,0,0,0.65); }
+
+#news, #about, #look, #making, #buy, #contact { display: none; }
