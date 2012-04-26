@@ -17,12 +17,15 @@ body {
   color: #000000;
 }
 
+a { color: #ffffff; text-decoration: underline; }
+
 div#logo { position: fixed; right: 20px; top: 90px; }
 
 #title {
   margin: 20px 0 0 20px;
   letter-spacing: 3px;
   line-height: 20px;
+  font-weight: bold;
 }
 #menu {
   margin: 20px 0 0 20px;
@@ -36,6 +39,7 @@ div#logo { position: fixed; right: 20px; top: 90px; }
 .content { width: 550px; margin: 20px 0 0 20px; padding: 20px; }
 .content p { line-height: 1.2em; margin: 10px 0; }
 .content p.content-title { text-decoration: underline; }
+.content p.details { font-size: 10px; }
 
 .green-back { background-color:rgba(0,153,0,0.65); }
 .red-back { background-color:rgba(255,0,0,0.65); }

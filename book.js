@@ -35,7 +35,7 @@ $(function () {
   };
   function whiteonblack () {
     $("#title, #menu, #menu a").css({ "color": "#ffffff" });
-    $(".content").css({ "color": "#000000"});
+    $(".content").css({ "color": "#ffffff"});
   };
   function patterns () {
     $("html").css({
