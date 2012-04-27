@@ -12,6 +12,10 @@ $(function () {
     } else {
       show("news");
     }
+    $("#slides").slides({
+      preload: true,
+      generatePagination: false
+    });
   }
   function hideAll() {
     $(".content").hide();

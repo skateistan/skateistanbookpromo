@@ -48,6 +48,12 @@ div#logo { position: fixed; right: 20px; top: 90px; }
 #threed-book, #news-book-release { float: left; }
 #news-book-release { margin-top: 100px; }
 
+#about { height: 1000px; }
+#about-main, #about-extra { float: left; }
+#about-main { width: 390px; }
+#about-extra { font-size: 11px; margin-left: 40px; }
+#about-extra p { text-align: center; margin-top: 80px; }
+
 #look { height: 322px; }
 #look-back, #look-forward { position: relative; width: 20px; height: 322px; text-align: center; float: left; }
 #look-back a, #look-forward a { position: absolute; top: 50%; }
