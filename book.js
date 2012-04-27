@@ -14,7 +14,8 @@ $(function () {
     }
     $("#slides").slides({
       preload: false,
-      generatePagination: false
+      generatePagination: false,
+      bigTarget: true
     });
   }
   function hideAll() {

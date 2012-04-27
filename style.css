@@ -44,19 +44,21 @@ div#logo { position: fixed; right: 20px; top: 90px; }
 .green-back { background-color:rgba(0,153,0,0.65); }
 .red-back { background-color:rgba(255,0,0,0.65); }
 
-#news { height: 500px; }
+#news { overflow: auto; }
 #threed-book, #news-book-release { float: left; }
 #news-book-release { margin-top: 100px; }
 
-#about { height: 1000px; }
+#about { overflow: auto; }
 #about-main, #about-extra { float: left; }
 #about-main { width: 390px; }
 #about-extra { font-size: 11px; margin-left: 40px; }
 #about-extra p { text-align: center; margin-top: 80px; }
 
 #look { height: 322px; }
-#look-back, #look-forward { position: relative; width: 20px; height: 322px; text-align: center; float: left; }
-#look-back a, #look-forward a { position: absolute; top: 50%; }
+#look-back, #look-forward { position: relative; width: 20px; height: 322px; float: left; }
+#look-back a, #look-forward a { position: absolute; top: 50%; width: 20px; }
+#look-back { text-align: left; }
+#look-forward { text-align: right; }
 #look-page { width: 510px; float: left; }
 #look-page img { width: 510px; height: 322px; }
 
