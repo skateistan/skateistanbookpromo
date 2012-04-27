@@ -13,7 +13,7 @@ $(function () {
       show("news");
     }
     $("#slides").slides({
-      preload: true,
+      preload: false,
       generatePagination: false
     });
   }
