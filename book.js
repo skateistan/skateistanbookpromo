@@ -18,9 +18,6 @@ $(function () {
       generatePagination: false,
       bigTarget: true
     });
-    // Setup plax
-    $("#logo").plaxify({"xRange": 30,"yRange": 30});
-    $.plax.enable()
     // Set up subscribe form
     setupsubscribe();
   }
