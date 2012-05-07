@@ -46,7 +46,7 @@ div#logo { position: fixed; right: 20px; top: 90px; }
 
 #news { overflow: auto; }
 #threed-book, #news-book-release { float: left; }
-#news-book-release { margin-top: 100px; }
+#news-book-release { margin-top: 60px; }
 
 #about { overflow: auto; }
 #about-main, #about-extra { float: left; }
