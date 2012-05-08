@@ -68,7 +68,7 @@ $(function () {
   }
   function patterns () {
     $("html").css({
-      "background": "url(images/noorzai-and-patterns.jpg) no-repeat center center fixed",
+      "background": "url(images/noorzai-and-patterns.jpg) no-repeat top center fixed",
       "-webkit-background-size": "cover",
       "-moz-background-size": "cover",
       "-o-background-size": "cover",
@@ -77,7 +77,7 @@ $(function () {
   };
   function noorzai () {
     $("html").css({
-      "background": "url(images/noorzai.jpg) no-repeat center center fixed",
+      "background": "url(images/noorzai.jpg) no-repeat top center fixed",
       "-webkit-background-size": "cover",
       "-moz-background-size": "cover",
       "-o-background-size": "cover",
