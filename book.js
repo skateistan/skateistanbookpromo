@@ -61,24 +61,14 @@ $(function () {
     $("#a-" + id).attr("class", "current");
     if (id === "news") {
       patterns();
-      blackonwhite();
     } else {
       noorzai();
-      whiteonblack();
     }
     $("#" + id).show();
   }
-  function blackonwhite () {
-    $("#title, #menu, #menu a").css({ "color": "#000000" });
-    $(".content").css({ "color": "#ffffff"});
-  };
-  function whiteonblack () {
-    $("#title, #menu, #menu a").css({ "color": "#ffffff" });
-    $(".content").css({ "color": "#ffffff"});
-  };
   function patterns () {
     $("html").css({
-      "background": "url(images/patterns.png) no-repeat top center fixed",
+      "background": "url(images/noorzai-and-patterns.jpg) no-repeat center center fixed",
       "-webkit-background-size": "cover",
       "-moz-background-size": "cover",
       "-o-background-size": "cover",
