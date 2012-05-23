@@ -38,7 +38,7 @@ div#logo { position: fixed; right: 20px; top: 90px; }
 #menu a { font-weight: bold; color: #ffffff; text-decoration: none; }
 #menu a:hover, #menu a:active, #menu a.current { text-decoration: underline; }
 
-.content { width: 550px; margin: 20px 0 0 20px; padding: 20px; }
+.content { width: 700px; margin: 20px 0 0 20px; padding: 20px; }
 .content p { line-height: 1.2em; margin: 10px 0; }
 .content p.content-title { text-decoration: underline; }
 .content p.details { font-size: 11px; }
