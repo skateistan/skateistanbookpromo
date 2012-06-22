@@ -49,6 +49,7 @@ div#logo { position: fixed; right: 20px; top: 90px; }
 #news { overflow: auto; }
 #threed-book, #news-book-release { float: left; width: 280px; }
 #news-book-release { margin-top: 20px; width: 300px; }
+#irie-logo { float: left; margin-right: 15px; }
 
 #about { overflow: auto; }
 #about-main, #about-extra { float: left; }
