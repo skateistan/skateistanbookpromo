@@ -47,8 +47,8 @@ div#logo { position: fixed; right: 20px; top: 90px; }
 .red-back { background-color:rgba(255,0,0,0.65); }
 
 #news { overflow: auto; }
-#threed-book, #news-book-release { float: left; width: 280px; }
-#news-book-release { margin-top: 20px; width: 300px; }
+.news-image { float: left; width: 280px; margin-top: 10px; }
+.news-item-text { float: right; margin-bottom: 20px; width: 400px; }
 #irie-logo { float: left; margin-right: 15px; }
 
 #about { overflow: auto; }
