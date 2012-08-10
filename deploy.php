@@ -7,6 +7,6 @@
 
   # Request must be made from GitHub and we only want to deploy master
   if (in_array($ip, $github_ips) && $p->ref === 'refs/heads/master') {
-    `git pull -f origin master`;
+    `git fetch --all && git reset --hard origin/master`;
   }
 ?>
