@@ -49,7 +49,7 @@ div#logo { position: fixed; right: 20px; top: 90px; }
 #news { overflow: auto; }
 .news-image { float: left; width: 280px; margin-top: 10px; }
 .news-item-text { float: right; margin-bottom: 20px; width: 400px; }
-#irie-logo { float: left; margin-right: 15px; }
+#buy-logo { float: left; margin-right: 15px; }
 
 #about { overflow: auto; }
 #about-main, #about-extra { float: left; }
