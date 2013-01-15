@@ -18,6 +18,8 @@ This will invoke a service hook which is set up to hit `http://skateistan.org/bo
 
 The app runs from `/usr/local/book` on skateistan.org, which is a git repository and has a remote named `origin` which points to the GitHub repository (`git@github.com:skateistan/skateistanbookpromo.git`).
 
+Note that the `.git` directory must be owned by `www-data:www-data`. So you probably need to run: `sudo chown -R www-data:www-data /usr/local/book/.git/`.
+
 There is an ssh key pair for the `www-data` user in `/var/www/.ssh/` which is added as a GitHub deploy key and therefore has access to fetch from the GitHub repository:
 
 ```
@@ -34,3 +36,4 @@ If you look at the apache access log files, by doing `tail -f /var/log/apache2/a
 50.57.231.61 - - [15/Jan/2013:18:18:24 +0430] "POST /book/deploy.php HTTP/1.1" 200 211 "-" "GitHub Services Web Hook"
 ```
 
+To check for errors, use: `tail -f /var/log/apache2/error.log`
