@@ -1,6 +1,6 @@
-# Skateistan Book Promo Site
+# skateistan.org/book
 
-A small site to promote the book _SKATEISTAN – The Tale of Skateboarding in Afghanistan_.
+A small site to promote Skateistan's [book](http://skateistan.org/book/).
 
 ## Contributing
 
